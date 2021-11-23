@@ -1,4 +1,12 @@
+
+
 .board-container {
     width: 90vw;
    
+}
+
+.board-columns {
+    display: flex;
+    flex-direction: row;
+    
 }

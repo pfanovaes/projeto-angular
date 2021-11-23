@@ -1,0 +1,7 @@
+h1 {
+    color: black;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: .4rem;
+    padding: 1.6rem;
+    text-align: center;
+}

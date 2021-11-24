@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { BoardComponent } from './board/board.component';
 import { HeaderComponent } from './board/header/header.component';
 import { ColumnsComponent } from './board/columns/columns.component';
+import { FooterComponent } from './board/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { ColumnsComponent } from './board/columns/columns.component';
     BoardComponent,
     HeaderComponent,
     ColumnsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

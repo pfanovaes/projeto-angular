@@ -13,26 +13,28 @@ export class LoginComponent implements OnInit {
 
   loginError:boolean = false;  
 
-  constructor(private api: APIService, private router: Router) { }
+  // constructor(
+  //   private api: APIService, 
+  //   private router: Router
+  //   ) { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
-  onSubmit(login: any, senha: any): void {
-    this.api
-      .getAuthorizationToken(login.value, senha.value)
-      .subscribe((token) => {
-        if (token) {
-          this.api.setAuth(token);
-          // console.log(this.api.authorization);
-          this.router.navigateByUrl('/kanban');
-          this.loginError = false;
-        } else {
-          console.log('Não autorizado', login.value, senha.value);
-          this.loginError = true;
-          this.api.clearAuth()
-        }
-      });
-  }
+  // onSubmit(login: any, senha: any): void {
+  //   this.api
+  //     .getAuthorizationToken(login.value, senha.value)
+  //     .subscribe((token) => {
+  //       if (token) {
+  //         this.api.setAuth(token);
+         
+  //         this.router.navigateByUrl('/board');
+  //         this.loginError = false;
+  //       } else {
+  //         console.log('Não autorizado', login.value, senha.value);
+  //         this.loginError = true;
+  //         this.api.clearAuth()
+  //       }
+  //     });
+  // }
 
 }

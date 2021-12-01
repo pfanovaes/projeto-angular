@@ -34,7 +34,8 @@
 }
 
 .novo {
-    justify-content: center;
+    justify-content: center !important;
+   
 }
 
 .card-header { 
@@ -56,5 +57,26 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.blue {
+    color:#075191;
+    font-size: 2rem;
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+.red {
+    color: red;
+}
+
+.green { 
+    color: green;
 }
 

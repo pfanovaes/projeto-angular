@@ -21,6 +21,7 @@
 
 .input-titulo {
     width: 90%;
+    margin-bottom: .8rem;
 }
 
 .ta-content {
@@ -35,6 +36,7 @@
 
 .novo {
     justify-content: center !important;
+    margin-bottom: 0;
    
 }
 
@@ -47,7 +49,9 @@
 
 .card-content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }

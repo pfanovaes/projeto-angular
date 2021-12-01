@@ -22,6 +22,8 @@ A rota principal aponta para a tela de login (/login)
 
 ## Board
 
+A rota aponta para a board (/board)
+
 Essa tela possui 4 colunas
 
 Novo: Adiciona novo card com tarefa.

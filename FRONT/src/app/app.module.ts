@@ -8,7 +8,8 @@ import { BoardComponent } from './board/board.component';
 import { HeaderComponent } from './board/header/header.component';
 import { ColumnsComponent } from './board/columns/columns.component';
 import { FooterComponent } from './board/footer/footer.component';
-import { CardsComponent } from './columns/cards/cards.component';
+import { CardsComponent } from './board/columns/cards/cards.component';
+
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { CardsComponent } from './columns/cards/cards.component';
     ColumnsComponent,
     FooterComponent,
     CardsComponent,
+    
    
   ],
   imports: [

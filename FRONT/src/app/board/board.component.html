@@ -1,0 +1,9 @@
+<div class="board-container">
+    <app-header></app-header>
+    <app-columns 
+    *ngFor="let col of columns"
+    [column]="col">
+    </app-columns>
+    <app-footer></app-footer>
+</div>
+
